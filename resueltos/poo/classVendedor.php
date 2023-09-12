@@ -1,6 +1,7 @@
 <?php
 
-require_once 'classUsuario.php';
+
+require_once './classUsuario.php';
 
 class Vendedor extends Usuario
 {

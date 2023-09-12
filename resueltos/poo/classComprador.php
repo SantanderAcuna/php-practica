@@ -1,8 +1,6 @@
 <?php
 
-use function PHPSTORM_META\map;
-
-include_once './poo/classUsuario.php';
+include_once './classUsuario.php';
 
 class Comprador extends Usuario
 {
