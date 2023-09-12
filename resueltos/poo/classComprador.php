@@ -80,10 +80,10 @@ class Comprador extends Usuario
         $datos = [
             "
             <h2> Perfil comprador </h2>
-            <p> Nombre: {$this->nombre} <br></p>
-            <p> Apellido: {$this->apellido} <br></p>
-            <p> Email: {$this->email} <br></p>
-            <p> Password: {$this->getPassword()} <br></p>
+            <p> Nombre: {$this->nombre}</p>
+            <p> Apellido: {$this->apellido}</p>
+            <p> Email: {$this->email}</p>
+            <p> Password: {$this->getPassword()}</p>
             <p> Pais: {$this->getPais()}</p>
             <p> Ciudad: {$this->getCiudad()}</p>
             <p> Barrio: {$this->getBarrio()}</p>

@@ -76,11 +76,10 @@ class Usuario
         $datos = [
             "
             <h2> Perfil usuario </h2>
-
-            <p> Nombre: {$this->nombre} <br></p>
-            <p> Apellido: {$this->apellido} <br></p>
-            <p> Email: {$this->email} <br></p>
-            <p> Password: {$this->password} <br></p>
+            <p> Nombre: {$this->nombre}</p>
+            <p> Apellido: {$this->apellido}</p>
+            <p> Email: {$this->email}</p>
+            <p> Password: {$this->password}</p>
             "
 
         ];

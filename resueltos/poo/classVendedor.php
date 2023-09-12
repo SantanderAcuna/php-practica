@@ -34,12 +34,11 @@ class Vendedor extends Usuario
         $datos = [
             "
            <h2> Perfil vendedor </h2>
-
-            <p> Nombre: {$this->nombre} <br></p>
-            <p> Apellido: {$this->apellido} <br></p>
-            <p> Email: {$this->email} <br></p>
-            <p> Password: {$this->getPassword()} <br></p>
-            <p> Estado: {$this->getEstado()} <br></p>
+            <p> Nombre: {$this->nombre}</p>
+            <p> Apellido: {$this->apellido}</p>
+            <p> Email: {$this->email}</p>
+            <p> Password: {$this->getPassword()}</p>
+            <p> Estado: {$this->getEstado()}</p>
             "
 
         ];
