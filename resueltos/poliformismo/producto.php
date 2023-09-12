@@ -6,7 +6,7 @@ class Producto
     protected $descripcion = '';
     protected $precio = '';
     private $stock_minimo = 10;
-    private $status = 'inactivo';
+    private $status = 'activo';
 
 
     public function __construct(string $descripcion, float $precio)
@@ -81,17 +81,19 @@ class Producto
 
     public function getProducto(){
 
-       echo  "<h2> Perfil usuario </h2>";
+       echo  "<h2> Descripcion del producto </h2>";
 
         $datos = array(
             "         
 
-            <p> Nombre: {$this->descripcion} <br></p>
-            <p> Apellido: {$this->precio} <br></p>
-            <p> Email: {$this->getStockMinimmo()} <br></p>
-            <p> Password: {$this->getStatus()} <br></p>
+            <p> Descripcion: {$this->descripcion} <br></p>
+            <p> Precio: {$this->precio} <br></p>
+            <p> Stock minimo: {$this->getStockMinimmo()} <br></p>
+            <p> Status: {$this->getStatus()} <br></p>
             "
 
         );
+
+        return $datos;
     }
 }
